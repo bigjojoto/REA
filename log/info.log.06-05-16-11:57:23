@@ -1,5 +1,0 @@
-Sun Jun 5 11:05:04 UTC 2016 0 Debian base Operating System found. Only a guess.
-Sun Jun 5 11:05:04 UTC 2016 0 Installing Debian core components and updating OS
-Sun Jun 5 11:05:12 UTC 2016 0 Real OS family Debian detected by facter
-Sun Jun 5 11:05:12 UTC 2016 0 Real OS Ubuntu 14.04 detected by facter
-Sun Jun 5 11:05:12 UTC 2016 0 Installing Chef client for Ubuntu 14.04

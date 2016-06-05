@@ -1,8 +1,8 @@
-Sun Jun 5 11:39:01 EDT 2016 0 RedHat base Operating System found. Only a guess.
-Sun Jun 5 11:39:01 EDT 2016 0 Installing RedHat core components and updating OS
-Sun Jun 5 11:39:13 EDT 2016 0 Real OS family RedHat detected by facter
-Sun Jun 5 11:39:13 EDT 2016 0 Real OS RedHat 7.2 detected by facter
-Sun Jun 5 11:39:13 EDT 2016 0 Installing Chef client for RedHat 7.2
-Sun Jun 5 11:39:34 EDT 2016 0 Chef client is installing apps on RedHat 7.2
-Sun Jun 5 11:40:01 EDT 2016 0 The installation has finished !
-Sun Jun 5 11:40:01 EDT 2016 0 Please access the web server on http://ip-172-31-29-30.us-west-2.compute.internal
+Mon Jun 6 08:33:04 AEST 2016 0 Debian base Operating System found. Only a guess.
+Mon Jun 6 08:33:04 AEST 2016 0 Installing Debian core components and updating OS
+Mon Jun 6 08:34:42 AEST 2016 0 Real OS family Debian detected by facter
+Mon Jun 6 08:34:42 AEST 2016 0 Real OS Ubuntu 16.04 detected by facter
+Mon Jun 6 08:34:42 AEST 2016 0 Installing Chef client for Ubuntu 16.04
+Mon Jun 6 08:36:19 AEST 2016 0 Chef client is installing apps on Ubuntu 16.04
+Mon Jun 6 08:38:28 AEST 2016 0 The installation has finished !
+Mon Jun 6 08:38:28 AEST 2016 0 Please access the web server on http://ubuntu

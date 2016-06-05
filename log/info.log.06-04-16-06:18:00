@@ -1,5 +1,0 @@
-Sat Jun 4 06:15:48 EDT 2016 0 RedHat base Operating System found. Only a guess.
-Sat Jun 4 06:15:48 EDT 2016 0 Installing RedHat core components and updating OS
-Sat Jun 4 06:16:26 EDT 2016 0 Real OS family RedHat detected by facter
-Sat Jun 4 06:16:26 EDT 2016 0 Real OS CentOS 7.2.1511 detected by facter
-Sat Jun 4 06:16:26 EDT 2016 0 Installing Chef client for CentOS 7.2.1511
