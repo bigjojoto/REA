@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+#
+# Nestor Rafael Bolivar
+# REA pre interview test
+# Installs a base for our deployment and clones our apps from a git repo
+#
+
 BASE_SW='tmux git'
 APPS_REP='http://github.com/bigjojoto/REA'
 TARG_DIR='/usr/local/rea_richmond'
