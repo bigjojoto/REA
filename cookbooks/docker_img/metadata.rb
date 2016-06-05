@@ -1,0 +1,7 @@
+name 'docker_img'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures docker_img'
+long_description 'Installs/Configures docker_img'
+version '0.1.0'

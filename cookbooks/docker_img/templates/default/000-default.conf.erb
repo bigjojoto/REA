@@ -1,0 +1,18 @@
+<IfModule mod_passenger.c>
+  PassengerRoot /usr/lib/ruby/vendor_ruby/phusion_passenger/locations.ini
+  PassengerDefaultRuby /usr/bin/ruby
+</IfModule>
+
+# Deploying a Ruby on Rails application
+
+# Suppose you have a Rails application in /somewhere. Add a virtual host to
+# your Apache configuration file and set its DocumentRoot to /somewhere/public:
+#
+    <VirtualHost *:80>
+       ServerName www.yourhost.com
+       DocumentRoot /var/www/html/simple-sinatra-app
+       <Directory />
+          AllowOverride all
+          Options -MultiViews
+       </Directory>
+    </VirtualHost>
