@@ -15,6 +15,7 @@ CON_DIR=$WORK_DIR/conf
 SUP_FIL=$CON_DIR/version_support.conf
 ERR_LOG=$LOG_DIR/error.log
 INF_LOG=$LOG_DIR/info.log
+EPE_REP='https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm'
 COR_PKG='facter tmux wget'
 
 # Let's clear the screen
@@ -66,6 +67,7 @@ install_core() {
 		MSG="0 Installing $OS core components and updating OS"; log
 		/usr/bin/yum install -y yum-utils; /usr/bin/yum-config-manager --enable *server*; /usr/bin/yum-config-manager --enable *extra*
 		/usr/bin/yum install -y epel-release; /usr/bin/yum upgrade -y; /usr/bin/yum update -y; /usr/bin/yum install -y $COR_PKG
+		wget -P $PKG_DIR $EPE_REP; rpm -ivf $PKG_DIR/*.rpm; rm $PKG_DIR/*.rpm
 	fi
 }
 
