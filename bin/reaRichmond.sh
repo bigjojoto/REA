@@ -96,15 +96,22 @@ chef_install() {
 }
 
 # Should we let Chef to take control?!
-chef_control(){
+chef_control() {
+	MSG="0 Chef client is installing apps on $OS_REALOS $OS_MAJORR"; log
 	cd $RCP_DIR
         #echo -e "\n\e[35mNotice: \e[1;32mPlease validate the web server...!\e[0m\n"
 	chef-client --local-mode --runlist recipe['docker_img']
 }
 
+# Let's tell our users the app is ready
+notify() {
+	MSG="0 The installation has finished !"; log
+	MSG="0 Please access the web server on http://$(hostname -f)"; log
+}
+
 # Main function, where it all begins.
 ___main___() {
-clear_log && os_type && install_core && os_family && chef_install && chef_control
+clear_log && os_type && install_core && os_family && chef_install && chef_control && notify
 }
 
 ___main___
